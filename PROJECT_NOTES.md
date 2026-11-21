@@ -2,11 +2,16 @@
 
 Running list of the projects, domains and Figma links Gab shares. The site is built only after Gab says "create the portfolio".
 
+## Context from Gab (Nov 21, 2026)
+
+- **Projects 1–6 are personal projects.** Gab built them as self-training in building with AI, starting from Gab's own ideas. There are no Figma designs for them. The reason behind each is what the app itself sets out to do: help and assist people using current tech.
+- **Project 7 (DX Design System) is Gab's own initiative at DX Form PH.** As the company's first in-house UX/UI designer while also working as PM, Gab took the opportunity to give the company a design system.
+
 ## Projects
 
 ### 1. PM Assistant App
 - **Live URL:** https://pm-assistant-app-delta.vercel.app/
-- **Figma:** _not yet provided_
+- **Figma:** none (built directly with AI)
 - **Status of review:** Viewed and screenshotted on Nov 21, 2026 (all 7 pages, desktop + mobile). Loads publicly, no login.
 - **What it is (from the live site):** "PM Assistant: Research made clearer." A personal research workspace that walks a PM through Ask → Collect → Understand → Decide. Data is saved in the browser, with export/restore backup.
 - **Pages:**
@@ -18,22 +23,22 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
   - `/findings` Findings: decision makers, reported budgets, channel performance, segment profiles, with sample-size caveats.
   - `/guide` How to use: visual onboarding guide and PM terms.
 - **Design notes:** calm green palette, sidebar nav, numbered step flows, honest-evidence copy ("Evidence before certainty"), skip-to-content link, responsive mobile menu.
-- **Open questions:** Is this a personal project or for DX Form PH? Solo build or team? What tech stack? Why did you build it (the problem)? Any usage or results?
+- **Context:** Personal AI-assisted build (see Context above). No Figma.
 - **Still needed for the case study:** role, context and users, problem, key decisions, outcome, permission to show.
 
 ### 2. BotikaBantay
 - **Live URL:** https://web-eight-xi-tc0dhj19wa.vercel.app/
-- **Figma:** _not yet provided_
+- **Figma:** none (built directly with AI)
 - **Status of review:** Viewed and screenshotted on Nov 21, 2026 (home, 7 inner pages, mobile home). Loads publicly.
 - **What it is (from the live site):** "BotikaBantay: Presyo na Tama, Gamot na Tunay." A Filipino medicine price-comparison and catalog-check web app (Taglish copy). Compares prices across Mercury Drug, Watsons, Rose Pharmacy, Generika and South Star Drug, and checks barcodes / FDA registration numbers against its own catalog of FDA-registered products (the site states it is not a live FDA API).
 - **Pages:** `/` landing (hero search, quick chips, stats, "Two problems, one solution", How it works, partner pharmacies, testimonials); `/medicines` Price Check; `/submit` Submit Price (3-step: medicine → branch → price); `/scanner` Verify (manual lookup, camera scan, bulk verify up to 20 codes, recent checks saved on device); `/nearby` Nearby pharmacies (needs location); `/report` Report a suspicious medicine; `/login`, `/register`.
 - **Issue found:** Price Check is broken right now. `/api/medicines` returns HTTP 500, so `/medicines` shows "Failed to load medicines", and the home search leads to the same error.
 - **Copy to check before featuring:** landing page shows testimonials (Maria S., Juan D., Lola Rosa), "Trusted by Filipino families", and "100% FDA Verified". Confirm whether these are real or placeholder; if placeholder, label or leave them out of the case study.
-- **Open questions:** personal project, hackathon, school, or DX Form PH? Team or solo, and your role? Tech stack (looks like Next.js)? Why you built it? Any users or results?
+- **Context:** Personal AI-assisted build (see Context above). No Figma.
 
 ### 3. Hopamine
 - **Live URL:** https://hopamine.vercel.app/
-- **Figma:** _not yet provided_
+- **Figma:** none (built directly with AI)
 - **Status of review:** Viewed and screenshotted on Nov 21, 2026 (welcome screen, 6 sections, mobile). Loads publicly; runs as a "Browser demo" saving only on the device. No errors found.
 - **What it is (from the live site):** "Hopamine: Little Steps Club. Your steps. Your little world." A cozy, gentle walking app. Real-world steps move an illustrated companion (Hoppit "The Clover Explorer" or Luma "The Moonflower Wayfarer") along a storybook trail. Tone: "No streaks. No rush. Just you."
 - **Sections:**
@@ -45,18 +50,18 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
   - Badges: keepsake badge book, "No races. No comparison."
   - Profile: companion, daily step goal (1,500–10,000), reminders.
 - **Design notes:** original illustrated characters, serif + soft green palette, anti-pressure wellness design (no streaks, rest is welcome), clear privacy and data copy, responsive.
-- **Open questions:** who it's for and why you built it; solo or team, your role (character art too?); tech stack; any users or testing.
+- **Context:** Personal AI-assisted build (see Context above). No Figma.
 
 ### 4. Stride Strength
 - **Live URL:** https://stride-strength-zeta.vercel.app/
-- **Figma:** _not yet provided_
+- **Figma:** none (built directly with AI)
 - **Status of review:** Not viewable on Nov 21, 2026. The URL redirects to a Vercel login page because Vercel Authentication (Deployment Protection) is on, so visitors and recruiters can't open it either.
 - **Next step:** Gab to turn off Deployment Protection for production, or approve a temporary 23-hour share link through the Vercel connector.
-- **Open questions:** what it is, who it's for, role, stack, outcome.
+- **Context:** Personal AI-assisted build (see Context above). No Figma.
 
 ### 5. SALPAK
 - **Live URL:** https://bai-and-sil.vercel.app/ (project slug "bai-and-sil"; product name SALPAK)
-- **Figma:** _not yet provided_
+- **Figma:** none (built directly with AI)
 - **Status of review:** Viewed and screenshotted on Nov 21, 2026 (home, categories, search, listing detail, safety, login, register, mobile). Loads publicly; selling, messages and profile need an account.
 - **What it is (from the live site):** "SALPAK: Find stuff. Sell stuff. Repeat." / "Hanap, Benta, I-repeat!" A Filipino C2C marketplace for pre-loved items: free listing, zero commission, direct chat, meet-up in public places. Taglish copy; navy and gold brand; the site explains the name ("salpak" = the moment a deal lands) and the logo (arrow hitting a bar).
 - **Features seen:** 12 categories; search with filters (category, ~50 PH cities, condition, price range), sort, save search, favorites; listing page with share, Message Seller, Make an Offer, Notify me, report flag, seller card and Trust Tips; Safety Tips page; register asks "I want to buy / I want to sell"; Google sign-in; mobile bottom nav (Home, Explore, Sell, Messages, Profile).
@@ -64,16 +69,16 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
   - Many listings show "No Image", and some Pexels photo links return 404. The listing page I opened shows a broken image with alt text.
   - Trust Tips bullets show garbled characters ("â€¢") instead of "•", an encoding bug.
   - Listings are demo/seed data (e.g. "Pia the Seller", 239 listings). Fine for a demo, but present it as sample data.
-- **Open questions:** context (personal, school, client, DX Form PH?), team and your role, stack, why you built it, any users or testing.
+- **Context:** Personal AI-assisted build (see Context above). No Figma.
 
 ### 6. Lucid
 - **Live URL:** https://lucid-omega-red.vercel.app/ (redirects to `/login?next=%2F`)
-- **Figma:** _not yet provided_
+- **Figma:** none (built directly with AI)
 - **Status of review:** Only the sign-in and sign-up pages are viewable (screenshotted Nov 21, 2026). Every other route redirects to login.
 - **What it is (from the live site):** "Lucid: UX/UI Assessment." Sign-in copy: "Continue your UX/UI assessments." Sign-up: "Start structured UX/UI assessments in minutes." (name, email, password). Clean, minimal monochrome UI with a purple accent.
 - **Next step:** Gab to share demo login details, or approve Claude creating a test account through sign-up.
 - **Portfolio note:** recruiters will hit the login wall too. Consider a demo account, a "Try demo" button, or a public landing page.
-- **Open questions:** what an assessment covers, who it's for, role, stack, outcome.
+- **Context:** Personal AI-assisted build (see Context above). No Figma.
 
 ### 7. DX Design System (DX Form PH work)
 - **Live URL:** https://dx-design-system.vercel.app/
@@ -83,4 +88,5 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Stats stated on the site:** 63 components (Figma ↔ code parity 63/63), 567 tokens in 9 collections and 4 tiers (Primitive 250, Brand 51, Semantic 122, Component 28), 3 brands (Default·Inter, Violet·Manrope, Amber·Poppins) × 4 color modes (light, dark, light-HC, dark-HC) × 2 densities, 69 DX icons on Lucide, React Native theme file, "Build with AI" (llms.txt, Markdown pages, rules), governance model with 3 ownership tiers and a 6-step request-to-release flow, 80/80 WCAG 2.2 checks and 324/324 contrast checks, "Synced from Figma Nov 12, 2026".
 - **Sections:** Get started (Installation, React Native, Figma to code, Build with AI, Downloads, Changelog); Foundations (color/type/space, data viz, content guidelines, localization & RTL, icons); Token explorer; Components; Patterns (Form, AI); Product kit (templates, starter & empty states, examples, Next.js starter app); Themes; Contribute (governance, working with one seat, cleanup checklist).
 - **Permission / privacy:** This is DX Form PH company work. Confirm employer permission before featuring it. The starter app shows sample people with @dxform.ph emails; confirm they are fictional before using screenshots.
-- **Open questions:** your role (sole designer and builder? team?), why it was needed, adoption (which products and teams use it), and what can be said publicly.
+- **Context:** Gab's own initiative as DX Form PH's first in-house UX/UI designer (while PM).
+- **Still to confirm:** OK to feature publicly; solo or with help; which products/teams use it.
