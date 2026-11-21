@@ -74,3 +74,13 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Next step:** Gab to share demo login details, or approve Claude creating a test account through sign-up.
 - **Portfolio note:** recruiters will hit the login wall too. Consider a demo account, a "Try demo" button, or a public landing page.
 - **Open questions:** what an assessment covers, who it's for, role, stack, outcome.
+
+### 7. DX Design System (DX Form PH work)
+- **Live URL:** https://dx-design-system.vercel.app/
+- **Figma:** linked from the site header ("DX Design System" Figma file). **GitHub:** linked from the site header (`DX-Gamores/dx-design-system`).
+- **Status of review:** Viewed and screenshotted on Nov 21, 2026 (home, dark mode + Customize, components, Button, tokens, themes, foundations, icons, AI patterns, starter app, governance, mobile). Loads publicly; no errors found.
+- **What it is (from the live site):** "Build DXFORM products in any brand." v3.2.0. Tokens, components and patterns from the DX Figma library as React code; install via the shadcn CLI, copy, or download. "No Figma seat needed."
+- **Stats stated on the site:** 63 components (Figma ↔ code parity 63/63), 567 tokens in 9 collections and 4 tiers (Primitive 250, Brand 51, Semantic 122, Component 28), 3 brands (Default·Inter, Violet·Manrope, Amber·Poppins) × 4 color modes (light, dark, light-HC, dark-HC) × 2 densities, 69 DX icons on Lucide, React Native theme file, "Build with AI" (llms.txt, Markdown pages, rules), governance model with 3 ownership tiers and a 6-step request-to-release flow, 80/80 WCAG 2.2 checks and 324/324 contrast checks, "Synced from Figma Nov 12, 2026".
+- **Sections:** Get started (Installation, React Native, Figma to code, Build with AI, Downloads, Changelog); Foundations (color/type/space, data viz, content guidelines, localization & RTL, icons); Token explorer; Components; Patterns (Form, AI); Product kit (templates, starter & empty states, examples, Next.js starter app); Themes; Contribute (governance, working with one seat, cleanup checklist).
+- **Permission / privacy:** This is DX Form PH company work. Confirm employer permission before featuring it. The starter app shows sample people with @dxform.ph emails; confirm they are fictional before using screenshots.
+- **Open questions:** your role (sole designer and builder? team?), why it was needed, adoption (which products and teams use it), and what can be said publicly.
