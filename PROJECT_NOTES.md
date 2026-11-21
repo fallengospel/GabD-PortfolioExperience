@@ -53,3 +53,15 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Status of review:** Not viewable on Nov 21, 2026. The URL redirects to a Vercel login page because Vercel Authentication (Deployment Protection) is on, so visitors and recruiters can't open it either.
 - **Next step:** Gab to turn off Deployment Protection for production, or approve a temporary 23-hour share link through the Vercel connector.
 - **Open questions:** what it is, who it's for, role, stack, outcome.
+
+### 5. SALPAK
+- **Live URL:** https://bai-and-sil.vercel.app/ (project slug "bai-and-sil"; product name SALPAK)
+- **Figma:** _not yet provided_
+- **Status of review:** Viewed and screenshotted on Nov 21, 2026 (home, categories, search, listing detail, safety, login, register, mobile). Loads publicly; selling, messages and profile need an account.
+- **What it is (from the live site):** "SALPAK: Find stuff. Sell stuff. Repeat." / "Hanap, Benta, I-repeat!" A Filipino C2C marketplace for pre-loved items: free listing, zero commission, direct chat, meet-up in public places. Taglish copy; navy and gold brand; the site explains the name ("salpak" = the moment a deal lands) and the logo (arrow hitting a bar).
+- **Features seen:** 12 categories; search with filters (category, ~50 PH cities, condition, price range), sort, save search, favorites; listing page with share, Message Seller, Make an Offer, Notify me, report flag, seller card and Trust Tips; Safety Tips page; register asks "I want to buy / I want to sell"; Google sign-in; mobile bottom nav (Home, Explore, Sell, Messages, Profile).
+- **Issues found:**
+  - Many listings show "No Image", and some Pexels photo links return 404. The listing page I opened shows a broken image with alt text.
+  - Trust Tips bullets show garbled characters ("â€¢") instead of "•", an encoding bug.
+  - Listings are demo/seed data (e.g. "Pia the Seller", 239 listings). Fine for a demo, but present it as sample data.
+- **Open questions:** context (personal, school, client, DX Form PH?), team and your role, stack, why you built it, any users or testing.
