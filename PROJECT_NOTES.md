@@ -15,6 +15,12 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - Rename projects generically, e.g. "Employee payment-request portal" and "Budget management system".
 - Screenshots: blur or relabel client logos, brand names, people's names and emails before publishing. Employer name **DX Form PH** is fine to show.
 
+## Goal and rebranding for DX Form PH work (Gab, Nov 21, 2026)
+
+- **Goal of the DX Figma case studies:** show Gab's UX/UI design decisions and thinking, and highlight different design approaches that combine Gab's own thinking with AI-assisted design.
+- **PayBridge is DX Form PH work.**
+- **Rebranding is allowed** wherever privacy matters, on all DX projects: give the product a neutral name, swap or mask logos, and replace client, company, hospital and people names and IDs with fictional ones. The focus is the decisions (audit → findings → fewer steps, consolidation, coverage, systems), not the client.
+
 ## Projects
 
 ### 1. PM Assistant App
