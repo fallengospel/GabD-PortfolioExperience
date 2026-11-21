@@ -201,3 +201,53 @@ Gab's note: most screens come from Gab's own design thinking, with AI helping to
   - Mask the logo and swap these texts.
   - Ask Gab whether the NVQS brand identity can be shown (it is built around the client's brand).
 - **Screenshots saved:** V2 summary, what-gets-shorter table, findings (Start & Approval), developer notes, R2.1, R2.2, R3.1, R3.2, R4 panel states, R5 dialogs, V1 dashboard, V1 long approval page, V1 member pop-up, brand identity hero, primary lockup, name-to-mark, semantic colors, buttons, queue panel.
+
+### 11. PayBridge: earned-wage-access product (DX Form PH product)
+- **Figma:** https://www.figma.com/design/cjwc6Hc458I8cbcXZEVZLw/ (reviewed read-only on Nov 21, 2026). DX Form's own product, not a client's.
+- **What it is:** A Philippine earned-wage-access ("cash advance") product. Employees get pay they've already earned before payday, for one flat 5% fee and no interest, repaid by one payroll deduction. Employers pay no platform fee, and take-home pay never drops below the regional minimum wage.
+  - Landing H1: "Your pay, on your schedule."
+  - Tagline: "Mabilis. Ligtas. Maaasahan."
+  - For: employers/HR at eligible companies (3+ years operating, bank payroll, 50+ regular employees) and their employees.
+- **Surfaces:**
+  - Admin back office: about 44 frames (dashboard, companies, company detail, reports, accounting top-ups, notifications, sign-in).
+  - Owner/HR portal: about 55 (dashboard, employees, cash advances (19), billing & payroll calendar, emails, re-access, company settings incl. auto-approval and cooling period).
+  - Employee web: about 55 (audit, redesign v2 E1–E33, sign-in, onboarding).
+  - Employee mobile: 50+ (request, re-access, history & spending notes, notifications, profile, sign-in, onboarding with salary-deduction authorization, My payroll).
+  - Website & marketing: overview, audit, landing flow, desktop and mobile landing, blog and article, before→after, contact, 3 download-page versions, a 60-second marketing video in 9 scenes, AI-generated photography.
+  - Design System: App UI kit v2 + brand foundations.
+- **PM / design-ops layer (Cover & Index):** reorganized Nov 4, 2026 from 13 pages to 9, 349 old frames archived, 62 new screens closing gaps. Includes a naming convention, a Dev Mode status workflow, a feature × role coverage table, and an "Open items for PM" checklist.
+- **Audits and before/after:**
+  - Marketing site audit: 48 findings (15 high, 24 medium, 9 low).
+    - Two competing heroes → one.
+    - No employee path → "I'm an employee".
+    - Product never shown → real app screens.
+    - Vague pricing → ₱0 employer fee, fee shown before confirming.
+    - "How it works" for HR only → split employee/employer.
+    - Investor-speak blog ("blockchain-powered lending") → money tips for workers.
+  - Compliance accuracy pass against an EWA parameters draft:
+    - Removed an unverified "SEC-regulated lender" badge.
+    - Installments → a single payroll deduction.
+    - Fee stated plainly.
+    - New "Five checks before every payout" section.
+    - Employer eligibility stated.
+  - Hero v2 "Salary advance your team can count on." → v3 "Your pay, on your schedule."
+  - Employee web audit: 72 findings (23 high, 33 medium, 16 low).
+  - v2 rules:
+    - "Cash advance", never "loan".
+    - One primary action per view.
+    - Amounts in a mono font.
+    - Status always has a text label, not colour alone.
+    - Spending plans are private from employers.
+- **Known inconsistency to mention or avoid:** the app screens still show 1–3 payday installments, while the v3 marketing site says one deduction (flagged in the file as "App screens: replace installment plans").
+- **Privacy:**
+  - Use only the v2 redesign pages and website screens. Sample companies, people and amounts there look fictional.
+  - Avoid Dev Handoff v1, the M6 exploration, the "00 · Reference current screens" sections, v1-look frames and the Brand foundations text. These contain a former product name, the studio's own name and emails, and real-looking personal Gmail addresses and phone numbers.
+  - Testimonial is a placeholder pending consent.
+  - Real banks/e-wallets (BDO, GCash) appear only as payout methods.
+- **Screenshots saved:**
+  - Website: landing hero v3, before/after hero & blog, full landing page (overview only).
+  - Admin: A1 dashboard, A3 company overview.
+  - HR: O2 dashboard, O3 employees, O4 approve dialog.
+  - Employee web: E1 home, E2 request amount, E5 spending plan.
+  - Mobile: home, request, My payroll, onboarding authorization.
+  - Design system: UI kit data display, brand colors, logo page (its subtitle mentions an old name; crop before use).
