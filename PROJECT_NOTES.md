@@ -46,3 +46,10 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
   - Profile: companion, daily step goal (1,500–10,000), reminders.
 - **Design notes:** original illustrated characters, serif + soft green palette, anti-pressure wellness design (no streaks, rest is welcome), clear privacy and data copy, responsive.
 - **Open questions:** who it's for and why you built it; solo or team, your role (character art too?); tech stack; any users or testing.
+
+### 4. Stride Strength
+- **Live URL:** https://stride-strength-zeta.vercel.app/
+- **Figma:** _not yet provided_
+- **Status of review:** Not viewable on Nov 21, 2026. The URL redirects to a Vercel login page because Vercel Authentication (Deployment Protection) is on, so visitors and recruiters can't open it either.
+- **Next step:** Gab to turn off Deployment Protection for production, or approve a temporary 23-hour share link through the Vercel connector.
+- **Open questions:** what it is, who it's for, role, stack, outcome.
