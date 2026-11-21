@@ -90,3 +90,33 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Permission / privacy:** This is DX Form PH company work. Confirm employer permission before featuring it. The starter app shows sample people with @dxform.ph emails; confirm they are fictional before using screenshots.
 - **Context:** Gab's own initiative as DX Form PH's first in-house UX/UI designer (while PM).
 - **Still to confirm:** OK to feature publicly; solo or with help; which products/teams use it.
+
+## DX Form PH: Figma designs and redesigns
+
+Gab's note: most screens come from Gab's own design thinking, with AI helping to produce them faster.
+
+### 8. Intellicare Employee Center: v2 redesign (dev handoff)
+- **Figma:** https://www.figma.com/design/eLJw7KVvwf0ZkIyUeGy9k8/ (reviewed read-only on Nov 21, 2026). Cover reads "Prepared by Gab D · DXFORM", updated Oct 21, 2026. Source: the v1 "For Dev" page plus a v2 prototype made with Claude Design.
+- **What it is:** An internal payment-request system for employees: cash advances, reimbursements, general requests and cash-advance liquidation, moving through a multi-stage approval chain to Accounting & Treasury.
+- **File structure (80 screens):** Read Me; 01 Foundations (IBM Plex Sans, green #179A48, semantic color variables, 4px grid, radius, elevation); 02 Components (icons, buttons, 7-tone status tags, form fields × 4 states, sidebar in 4 role versions, top bar, toast, status tracker, tables); 03 Flow Map; 10 Auth (4 flows); 20 Employee (6 flows); 30 Approvers (4 flows); 40 Accounting & Treasury (2 flows); 50 Admin (5 flows); 90 Gap Report v1→v2. Each screen has a yellow dev-note card (purpose, entry point, actions → result, status change, validation, API, what changed from v1).
+- **Roles:** Employee (requester); stage roles (Verifier, Confirmer, Noter, Approver); Accounting & Treasury; Main Admin Approver.
+- **Flow map:**
+  - Role → screens map.
+  - Payment request lifecycle: For Verification → For Confirmation (optional) → For Noting → For Approval (skipped by auto-approval) → At Accounting → Processing → Closed, or For Liquidation for cash advances. Returned and Cancelled can be reached from any active stage.
+  - Liquidation lifecycle.
+  - One canonical status list with DB keys.
+- **Gap Report (before → after):** 13 items covered by v2, 6 partial and completed here, 7 missing and designed here.
+  - 9 role login frames → 1 sign-in that redirects by role.
+  - 20+ admin dashboard copies → Overview + stage-based queue.
+  - 18 Validate page copies → 1 detail layout whose main button is the current stage's action.
+  - 24 confirm-screen frames → 1 dialog pattern.
+  - 16 multi-approval frames → checkbox bulk select.
+  - 9 edit variants → 1 edit-and-resubmit screen.
+  - 3 inconsistent status legends (11/10/7 statuses, including the "Retured" typo) → 1 canonical list.
+  - Added: forgot password, lockout, invite setup, session expired, 403; employee home with a plain-language 5-step tracker ("where is my money?"); scoped queues per stage role; accounting queue; tax/withholding editing; full liquidation form; requester cancel.
+  - 8 open questions listed for stakeholders (e.g. cancel rules, 2% withholding default, 15-day liquidation rule, mobile scope).
+- **Privacy, must fix before publishing:**
+  - Client brands are real: Intellicare and Aventus (logo, "Aventus Library", @aventus.ph emails). Get permission to name the client, or relabel and blur.
+  - Sample people look fictional (e.g. Marcus Thorne, Alex Santos, Maria Cruz) but use @aventus.ph emails. Replace them with clearly fictional names and emails, or blur.
+  - Amounts and references (PR-26-01xx) are made up.
+- **Screenshots saved:** read me, flow maps, sign-in, EMP-01/03/11, APR-02/04, stage dialogs, bulk action, ACC-01/03, ADM-01/40/50, foundations, components, gap report.
