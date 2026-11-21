@@ -152,3 +152,40 @@ Gab's note: most screens come from Gab's own design thinking, with AI helping to
 - **Flow map:** swimlanes per role plus external systems, 8 stages (Access → Fiscal year → Allocate → Plan → Review → Publish → Track spending → Report); state machines for budget, publication, PR/PO line and fiscal year.
 - **Privacy, must fix before publishing:** client logo and name on many screens ("…SSO", "Use your … work account"); @[client domain] emails; placeholder names (e.g. Rafael Ong, Maria Santos, Carlo Mendoza, Dr. Jose Reyes, Paolo Garcia, Grace Uy). Amounts are mock data. NetSuite is a third-party product name (OK to mention generically as "ERP").
 - **Screenshots saved:** readme, flow map, old→new mapping, foundations, semantic colors, sidebar component, sign-in, overview, fiscal year, budget list, budget detail, approvals queue, approve dialog, publications, procurement overview, sync review, Budget vs Actual, roles & permissions, 500 page, mobile budget detail.
+
+### 10. NVQS: non-voice call-center queue, UX audit + redesign + brand identity
+- **Figma:** https://www.figma.com/design/5GHlTcybKUDsT9wci6CrCN/ (reviewed read-only on Nov 21, 2026). Pages: Brandbook – Non-Voice, Version 1 Screen (22 old screens), Version 2 · Redesign.
+- **Portfolio name:** "Non-voice queueing system" for a healthcare company's call center. **Do not use the client name.**
+- **What it is:** An internal web app. Call-center agents approve healthcare requests that arrive by chat, email or portal instead of by phone. Flow: log in → dashboard (live queue + agent status) → start approval → review member, procedures, documents and references → place on hold / disapprove / approve.
+- **Audit:** "Same flow, fewer steps." **52 findings across 22 screens**: 12 high, 27 medium, 13 low; 28 UX, 11 UI, 13 accessibility (checked against the brandbook and WCAG 2.2 AA). Each card has an ID, severity, description and the fix that resolves it.
+  - Examples:
+    - Opening a request took 4 steps (copy ID → dialog → paste → start), and clicking a row did nothing.
+    - "Tabs" that each opened a blocking modal.
+    - Procedures hidden behind a toggle.
+    - The decision bar 1,150–1,480px down the page.
+    - No comparison of the total against the member's limit.
+    - A shouting empty state ("NO SPIELS FOUND! … !!!").
+    - Text at 9.5–11px; labels at 3.47:1 contrast; a hold button at 1.53:1.
+    - Five spellings of one identifier.
+- **What gets shorter (V1 → V2):**
+  - Open a request: 4 steps → 1.
+  - See procedures: 2 → 0.
+  - Check benefit limit: 4 → 0 (pinned).
+  - Reach the decision: a full-page scroll → 0 (pinned bar).
+  - Look up utilization/contract: 3 → 1 (side panel, request stays visible).
+  - Check spiels: 3 → 0.
+  - Approve: a blind confirm → a summary dialog (member, procedures, total, limit check).
+  - Hold/disapprove: a dropdown covering the field → a checklist plus verb buttons.
+- **Redesigned screens:** R2.1 dashboard queue, R2.2 start dialog, R3.1 approval workspace, R3.2 document preview, R4 reference panel (Member / Utilization / Contract / Spiels), R5 decision dialogs. Developer notes cover what's kept, new patterns, rules (sentence case, nothing under 11px, every text pair ≥ 4.5:1, data model unchanged) and what's deferred.
+- **Brand Identity 2.0 (NVQS logo):** a Q drawn as an open SLA ring with three typing dots (chat, email, portal); a forward tail sends the next request on. N·V = typing dots, Q = ring/SLA clock, S = forward tail. Construction grid, colour versions, app icon/favicons, motion (the mark doubles as a loader), wordmark, misuse rules. Plus color, type, spacing, icon and component boards.
+- **Privacy, must fix before publishing:**
+  - The client logo is in every screen header.
+  - The brand rationale mentions the client's ▶ (describe it as "the client's play glyph").
+  - Real corporate account names (e.g. a global consulting firm and a logistics company) appear in queue tabs and member fields.
+  - Real hospitals with addresses.
+  - Placeholder patient, member and doctor names.
+  - An agent username and staff-like initials.
+  - Synthetic IDs and account numbers.
+  - Mask the logo and swap these texts.
+  - Ask Gab whether the NVQS brand identity can be shown (it is built around the client's brand).
+- **Screenshots saved:** V2 summary, what-gets-shorter table, findings (Start & Approval), developer notes, R2.1, R2.2, R3.1, R3.2, R4 panel states, R5 dialogs, V1 dashboard, V1 long approval page, V1 member pop-up, brand identity hero, primary lockup, name-to-mark, semantic colors, buttons, queue panel.
