@@ -7,6 +7,14 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Projects 1–6 are personal projects.** Gab built them as self-training in building with AI, starting from Gab's own ideas. There are no Figma designs for them. The reason behind each is what the app itself sets out to do: help and assist people using current tech.
 - **Project 7 (DX Design System) is Gab's own initiative at DX Form PH.** As the company's first in-house UX/UI designer while also working as PM, Gab took the opportunity to give the company a design system.
 
+## Rule: no client names (Gab, Nov 21, 2026)
+
+- **No client names anywhere on the portfolio:** not in text, file names, alt text, image captions, URLs or screenshots.
+- Known client names to remove: **Intellicare**, **Aventus** (logo, "Aventus Library", @aventus.ph emails). Treat any other client or brand name found later the same way.
+- Describe clients generically, e.g. "a healthcare / HMO company in the Philippines".
+- Rename projects generically, e.g. "Employee payment-request portal" and "Budget management system".
+- Screenshots: blur or relabel client logos, brand names, people's names and emails before publishing. Employer name **DX Form PH** is fine to show.
+
 ## Projects
 
 ### 1. PM Assistant App
