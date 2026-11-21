@@ -20,3 +20,13 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Design notes:** calm green palette, sidebar nav, numbered step flows, honest-evidence copy ("Evidence before certainty"), skip-to-content link, responsive mobile menu.
 - **Open questions:** Is this a personal project or for DX Form PH? Solo build or team? What tech stack? Why did you build it (the problem)? Any usage or results?
 - **Still needed for the case study:** role, context and users, problem, key decisions, outcome, permission to show.
+
+### 2. BotikaBantay
+- **Live URL:** https://web-eight-xi-tc0dhj19wa.vercel.app/
+- **Figma:** _not yet provided_
+- **Status of review:** Viewed and screenshotted on Nov 21, 2026 (home, 7 inner pages, mobile home). Loads publicly.
+- **What it is (from the live site):** "BotikaBantay: Presyo na Tama, Gamot na Tunay." A Filipino medicine price-comparison and catalog-check web app (Taglish copy). Compares prices across Mercury Drug, Watsons, Rose Pharmacy, Generika and South Star Drug, and checks barcodes / FDA registration numbers against its own catalog of FDA-registered products (the site states it is not a live FDA API).
+- **Pages:** `/` landing (hero search, quick chips, stats, "Two problems, one solution", How it works, partner pharmacies, testimonials); `/medicines` Price Check; `/submit` Submit Price (3-step: medicine → branch → price); `/scanner` Verify (manual lookup, camera scan, bulk verify up to 20 codes, recent checks saved on device); `/nearby` Nearby pharmacies (needs location); `/report` Report a suspicious medicine; `/login`, `/register`.
+- **Issue found:** Price Check is broken right now. `/api/medicines` returns HTTP 500, so `/medicines` shows "Failed to load medicines", and the home search leads to the same error.
+- **Copy to check before featuring:** landing page shows testimonials (Maria S., Juan D., Lola Rosa), "Trusted by Filipino families", and "100% FDA Verified". Confirm whether these are real or placeholder; if placeholder, label or leave them out of the case study.
+- **Open questions:** personal project, hackathon, school, or DX Form PH? Team or solo, and your role? Tech stack (looks like Next.js)? Why you built it? Any users or results?
