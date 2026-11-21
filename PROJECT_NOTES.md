@@ -294,3 +294,38 @@ Gab's note: most screens come from Gab's own design thinking, with AI helping to
   - Product placeholder domain @bms.com is fine.
   - Leftover personal-finance template copy in the brandbook; keep it out.
 - **Screenshots saved:** audit overview, findings (all, UX, UI, a11y), design system core + patterns, brandbook brand + color, sign-in, dashboard, projects, project detail, contractor payments, payments list, add-payment flow, roles & permissions, account profile, V1 dashboard, V1 projects, For Dev long payment form, For Dev contractor, DX-system payments variant.
+
+### 13. FARMVOCACY: agri-fintech platform (farmer → digital warehouse receipt → bank loan)
+- **Figma:** https://www.figma.com/design/n15QFCyDMezz1hVtNBEOaN/ (reviewed read-only on Nov 21, 2026). Cover: "DXFORM · Product design", reorganized 3 Nov 2026, sprint Nov 2–13. No AI-tool mention in the file.
+- **Portfolio name:** "Agri-fintech platform for smallholder farmers". **Hide the client name, logo and partner banks.**
+- **What it is:** For Filipino smallholder rice and corn farmers.
+  - The problem: farmers sell right after harvest at the year's lowest prices because they have no safe storage, no proof of stock and no working capital.
+  - The solution: store grain in sealed storage at partner warehouses → get a **Digital Warehouse Receipt (DWR)** → pledge it at a partner bank for a loan (80% of value).
+- **Roles:** field staff, workspace admin, warehouse operator, bank loan officer and account officer (inspector), farmer, field personnel (farm leader, IA leader, field officer), lead farmers, admin supervisor.
+- **Prototypes (presentation-ready):**
+  - Bank demo "Farmer to financing": one persona (a rice farmer in Oriental Mindoro), 4 chapters, 31 screens.
+    - Onboard the farmer (8): consent → details → farm fields → partners → review.
+    - Set up the warehouse (7).
+    - Issue the DWR (6): intake & drying → valuation & fees → issue.
+    - Pledge & release the loan (10): verify receipt → deductions → farmer signs → inspection → officer signs → release.
+    - Ends "Five days from deposit to cash."
+    - Includes a presenter kit (animated toasts, step navigator).
+  - DWR prototype: a newer, focused version with an inspection assignment and role switching between loan officer and account officer. Every figure is tied to a fee-rules document.
+  - Note: the older demo's credited amount disagrees with the newer fee rules. Use the DWR prototype figures, or none.
+- **Design-thinking evidence:**
+  - Landing review: 32 issues (11 UX, 9 UI, 12 a11y) → mobile-first v2 cutting 13 sections to 6, one primary CTA, plain Filipino instead of jargon, a Cebuano switch.
+  - Warehouse review: annotated current screen, UX/UI/a11y findings, research R1–R4 (Shopify Locations, Odoo/Dynamics bins, storage sizes, the in-house design system), decisions D1–D6 (master → detail, safe delete, set-up checklist, capacity in 50-kg bags), open questions Q1–Q6.
+  - DWR "gaps & open questions": 51 items (16 high), each with a suggested default.
+  - Field personnel "decisions agreed before design": attendance flags for >8h, GPS >100m, sync >24h late; farmer funnel Invite → Present → Trial → Repeat → Loyal.
+  - Client palette fit analysis with WCAG contrast (e.g. CTA green at 6.0:1).
+- **File (about 160 screens):** Landing & Sign in 17 (desktop + 375 mobile), Farmers 29 (list, profile, onboarding, edit, commitment sign / void & re-sign), DWR 37 (create, view, edit, void, pledged & locked, drafts, moisture error, bank-officer path), Warehouse Management 12 + review, Overview & Reports 3, Admin 26 (users, events, crop varieties), Emails 17 (who gets what, lifecycles), Field Personnel 31 (incl. 11 mobile attendance screens with GPS + selfie time-in, offline, weak GPS; supervisor web; funnel dashboard; QA; backend spec), Components (17 sections), Design System/brandbook.
+- **Design system:** two-layer tokens (primitives → semantic) at WCAG 2.2 AA; semantic states incl. a violet "identity verification" state; Plus Jakarta Sans + IBM Plex Sans; 4px grid; Lucide. Live screens use the client's green palette and a serif, not the brandbook teal.
+- **Privacy, must fix before publishing:**
+  - Client name and logo on every screen.
+  - Real partner banks (in page titles, landing partner strip, loan refs, email domains).
+  - A real storage-product brand.
+  - Real-looking test names on the farmer list, admin and overview.
+  - Phone numbers.
+  - The employer domain in user emails.
+  - Mask all of these; persona names are fictional.
+- **Screenshots saved:** hub cover, file organization, bank demo cover/persona, DWR step 1, receipt issued, bank deductions, loan released, demo summary, color system, logo (client brand, don't use), landing v2, sign in, farmers list, farmer profile, onboarding consent, warehouse detail, overview dashboard, admin crop varieties, receipt email, mobile timed-in, supervisor attendance, field-personnel decisions, mobile selfie, warehouse review.
