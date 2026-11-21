@@ -128,3 +128,27 @@ Gab's note: most screens come from Gab's own design thinking, with AI helping to
   - Sample people look fictional (e.g. Marcus Thorne, Alex Santos, Maria Cruz) but use @aventus.ph emails. Replace them with clearly fictional names and emails, or blur.
   - Amounts and references (PR-26-01xx) are made up.
 - **Screenshots saved:** read me, flow maps, sign-in, EMP-01/03/11, APR-02/04, stage dialogs, bulk action, ACC-01/03, ADM-01/40/50, foundations, components, gap report.
+
+### 9. Budget management system ("BMS Insight") redesign (dev handoff)
+- **Figma:** https://www.figma.com/design/u9mw3pmgaK0t14pjk5qKmL/ (reviewed read-only on Nov 21, 2026). Built from a Claude Design prototype ("BMS Insight Redesign v2") and compared screen by screen with the old "For Dev" Figma page. No author name or date in the file.
+- **Portfolio name:** "Budget management system" for a healthcare company. **Do not use the client name.**
+- **What it is:** An internal budget management system. Yearly cycle: open a fiscal year → allocate budget to departments → departments plan budgets with line items → Management approves → publish to the employee portal and ERP (NetSuite) → sync purchase requests and purchase orders and match them to budget lines → reports.
+- **Roles:** Administrator, Finance Admin, Management (single approver), Dept Head (budget owner).
+- **File:** 18 pages, about 115 screens. Read me, Flow map, Old → New mapping, Foundations (IBM Plex Sans/Mono, color primitives + semantic tokens, 46 text styles, spacing/radius/elevation), Components (sidebar ×8, button, badge, input, tab, alert, KPI card), then module pages Auth, Overview, Fiscal year, Budgets (25 screens), Approvals, Publications, Procurement (new), Reports (9 reports), Notifications, Users & roles, System states (toasts, 403/404/500, offline, session expired, skeleton, no results), Responsive (tablet 1024 + mobile 390), Icons (116 Lucide).
+- **Old → New (before/after):**
+  - ~190 old frames, about 110 of them near-duplicates → 115 unique screens (60 from the redesign + 55 new ones that close gaps).
+  - 27 mapping rows: 4 merged, 1 rebuilt, 12 redesigned, 3 replaced, 1 removed, 2 new, 3 kept and restyled, 1 open question.
+  - Examples:
+    - 12 login copies → 1 SSO-first sign-in with locked and no-access states.
+    - 14 Submit/Pending copies → a confirmation step plus an In-review detail with a stepper and activity log.
+    - ~25 copies of the sync wizard → a 3-step sync with a failure state.
+    - The separate "Activate" step was removed: approval now makes a budget Active.
+    - Floating filter panels → inline filters.
+    - Save As Draft → autosave.
+    - Custom roles → 4 fixed roles with a permission matrix and audit log.
+    - Reports organized by the question they answer (8 report bodies newly designed).
+  - Decisions: kept procurement monitoring and Cost vs Quantity tracking that the AI redesign had dropped; added department and cost-center setup (the root cause of a failed delivery in the sample data).
+  - 6 open questions for stakeholders.
+- **Flow map:** swimlanes per role plus external systems, 8 stages (Access → Fiscal year → Allocate → Plan → Review → Publish → Track spending → Report); state machines for budget, publication, PR/PO line and fiscal year.
+- **Privacy, must fix before publishing:** client logo and name on many screens ("…SSO", "Use your … work account"); @[client domain] emails; placeholder names (e.g. Rafael Ong, Maria Santos, Carlo Mendoza, Dr. Jose Reyes, Paolo Garcia, Grace Uy). Amounts are mock data. NetSuite is a third-party product name (OK to mention generically as "ERP").
+- **Screenshots saved:** readme, flow map, old→new mapping, foundations, semantic colors, sidebar component, sign-in, overview, fiscal year, budget list, budget detail, approvals queue, approve dialog, publications, procurement overview, sync review, Budget vs Actual, roles & permissions, 500 page, mobile budget detail.
