@@ -21,6 +21,12 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **PayBridge is DX Form PH work.**
 - **Rebranding is allowed** wherever privacy matters, on all DX projects: give the product a neutral name, swap or mask logos, and replace client, company, hospital and people names and IDs with fictional ones. The focus is the decisions (audit → findings → fewer steps, consolidation, coverage, systems), not the client.
 
+## Goal for the DX Form Figma work (Gab, Nov 21, 2026)
+
+- **Purpose:** show Gab's UX/UI design decisions and thinking, and highlight a *different design approach in each project*, all combining Gab's own design thinking with AI-assisted design.
+- **PayBridge is a DX Form product,** not a client's.
+- **Privacy rule for every DX project:** hide branding wherever privacy matters (client names and logos, real companies, hospitals, people, usernames, IDs). The decisions and thinking are the point; the brand is not.
+
 ## Projects
 
 ### 1. PM Assistant App
