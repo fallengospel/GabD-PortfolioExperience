@@ -65,3 +65,12 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
   - Trust Tips bullets show garbled characters ("â€¢") instead of "•", an encoding bug.
   - Listings are demo/seed data (e.g. "Pia the Seller", 239 listings). Fine for a demo, but present it as sample data.
 - **Open questions:** context (personal, school, client, DX Form PH?), team and your role, stack, why you built it, any users or testing.
+
+### 6. Lucid
+- **Live URL:** https://lucid-omega-red.vercel.app/ (redirects to `/login?next=%2F`)
+- **Figma:** _not yet provided_
+- **Status of review:** Only the sign-in and sign-up pages are viewable (screenshotted Nov 21, 2026). Every other route redirects to login.
+- **What it is (from the live site):** "Lucid: UX/UI Assessment." Sign-in copy: "Continue your UX/UI assessments." Sign-up: "Start structured UX/UI assessments in minutes." (name, email, password). Clean, minimal monochrome UI with a purple accent.
+- **Next step:** Gab to share demo login details, or approve Claude creating a test account through sign-up.
+- **Portfolio note:** recruiters will hit the login wall too. Consider a demo account, a "Try demo" button, or a public landing page.
+- **Open questions:** what an assessment covers, who it's for, role, stack, outcome.
