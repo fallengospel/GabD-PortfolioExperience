@@ -30,3 +30,19 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Issue found:** Price Check is broken right now. `/api/medicines` returns HTTP 500, so `/medicines` shows "Failed to load medicines", and the home search leads to the same error.
 - **Copy to check before featuring:** landing page shows testimonials (Maria S., Juan D., Lola Rosa), "Trusted by Filipino families", and "100% FDA Verified". Confirm whether these are real or placeholder; if placeholder, label or leave them out of the case study.
 - **Open questions:** personal project, hackathon, school, or DX Form PH? Team or solo, and your role? Tech stack (looks like Next.js)? Why you built it? Any users or results?
+
+### 3. Hopamine
+- **Live URL:** https://hopamine.vercel.app/
+- **Figma:** _not yet provided_
+- **Status of review:** Viewed and screenshotted on Nov 21, 2026 (welcome screen, 6 sections, mobile). Loads publicly; runs as a "Browser demo" saving only on the device. No errors found.
+- **What it is (from the live site):** "Hopamine: Little Steps Club. Your steps. Your little world." A cozy, gentle walking app. Real-world steps move an illustrated companion (Hoppit "The Clover Explorer" or Luma "The Moonflower Wayfarer") along a storybook trail. Tone: "No streaks. No rush. Just you."
+- **Sections:**
+  - Welcome: choose a companion, which sets the companion and color theme.
+  - Adventure: "A little walk. A little wonder." Today's steps vs. goal, last 7 days, daily check-in (self-reported steps + optional reflection), XP.
+  - Walk: optional private GPS walk recording, with consent copy that explains the location-privacy risk and keeps routes in the browser only.
+  - Journey: 4 chapters (Clover Grove, Misty River, Starlit Highlands, Moonflower Peaks), 16 discoveries unlocked by distance.
+  - Rewards: "practice coins" (cosmetic only, no money) for wardrobe and scenery items.
+  - Badges: keepsake badge book, "No races. No comparison."
+  - Profile: companion, daily step goal (1,500–10,000), reminders.
+- **Design notes:** original illustrated characters, serif + soft green palette, anti-pressure wellness design (no streaks, rest is welcome), clear privacy and data copy, responsive.
+- **Open questions:** who it's for and why you built it; solo or team, your role (character art too?); tech stack; any users or testing.
