@@ -251,3 +251,46 @@ Gab's note: most screens come from Gab's own design thinking, with AI helping to
   - Employee web: E1 home, E2 request amount, E5 spending plan.
   - Mobile: home, request, My payroll, onboarding authorization.
   - Design system: UI kit data display, brand colors, logo page (its subtitle mentions an old name; crop before use).
+
+### 12. Budget Monitoring System (construction): UX audit + redesign
+- **Figma:** https://www.figma.com/design/ZRFWhd8CghYjBZ0Xlu9qxv/ (reviewed read-only on Nov 21, 2026). The "Editing Screens" page is empty. Pages: Version 1, For Dev, Brandbook, UX Audit, Redesign Design System, 01 Sign In to 08 Account Profile.
+- **Portfolio name:** "Budget monitoring system for construction teams". Not the same product as #9 (the healthcare budget management system).
+- **What it is:** A web admin app tracking construction project budgets in ₱.
+  - Flow: sign in → dashboard → projects → project detail → contractor & contract → add payment / record receipt → reports.
+  - Roles: Admin, Engineer, Viewer, with permission codes.
+  - Covers renovation and fit-out projects, labour and supply contractors, contracts, budget adjustments, POs and supply receipts, payments (check/cash, VAT), reports.
+- **Audit (Nov 5, 2026):** 28 findings, all resolved in the redesign (28/28). 3 critical, 13 major, 12 minor; 11 UX, 8 UI, 9 accessibility; benchmarked against the brandbook and WCAG 2.2 AA.
+  - Critical findings:
+    - Numbers contradicted each other (8.7% progress while ₱777k of ₱1M was spent; ₱13.8M in reports on a ₱1M project). → One formula (spent ÷ budget) everywhere, and totals that reconcile.
+    - A guest account had Admin, and roles could be changed inline without confirmation. → Change role via a confirm-with-reason dialog; external users default to Viewer.
+    - White on green badges at about 2.3:1 contrast. → Semantic tokens that pass AA.
+  - Other findings:
+    - Broken wayfinding (top bar always said "Dashboard").
+    - A Delete icon on every row → View + overflow menu, delete by typing the project name.
+    - A ~1,600px payment modal with Save at the top → a 3-step flow with a sticky footer, method-aware fields and a review step showing budget impact.
+    - Variance done by typing a minus sign → an Adjust budget dialog with Increase/Decrease, reason and preview.
+    - The brandbook wasn't connected to the screens (0 components, 0 variables) → 30+ components.
+    - Mono, right-aligned amounts.
+    - Icon-only buttons, colour-only meaning, text under 14px, 16px targets, no focus states.
+    - Typos ("Avalable", "Over Budet", "Contrator").
+- **Before → after:**
+  - Dashboard: 6 flat KPIs + donut → 4 stat cards, labelled bars, "Needs attention" + recent payments, table sorted by % used.
+  - Projects: icon soup → View + overflow menu, status tabs with counts.
+  - Payments: 1 long form → a 3-step flow + details drawer.
+  - Heavy blue hero → calm header with tabs.
+  - User management: inline role dropdown → change-role modal; roles and permissions merged.
+  - Profile: two-step verification and active sessions added.
+  - Scale: 12 screens + ~44 fragments → ~20 screens + ~30 modals, all built from components.
+  - Every redesign page has "What changed" and "Accessibility" note cards.
+- **Design system:**
+  - Brandbook: bar-chart mark; personality "Trustworthy not cold, Confident not arrogant, Calm not boring, Empowering not paternalistic"; primary #2563EB; Inter for UI and JetBrains Mono for amounts; 4px grid.
+  - Redesign system: 46 Lucide icons, core + pattern components (Stat Card, Table cells incl. Amount, Pagination, Step, Choice Card…) + additions (Spinner, Checkbox, Textarea, Toast, Tooltip, Menu, Empty State).
+- **Link to DX Design System (#7):** the Payments page also has a "DX ·" version rebuilt only from DX Design System library components and tokens. This is evidence the design system is used in real product work.
+- **Privacy, must fix before publishing:**
+  - Real-looking project and client names on almost every screen ("Golden Phoenix…", "Consulate … – NRA", "Area 51").
+  - Contractor names.
+  - The signed-in admin name and other names.
+  - A personal Gmail address in the old screens, also quoted inside audit finding UX-10 (visible in the audit screenshots).
+  - Product placeholder domain @bms.com is fine.
+  - Leftover personal-finance template copy in the brandbook; keep it out.
+- **Screenshots saved:** audit overview, findings (all, UX, UI, a11y), design system core + patterns, brandbook brand + color, sign-in, dashboard, projects, project detail, contractor payments, payments list, add-payment flow, roles & permissions, account profile, V1 dashboard, V1 projects, For Dev long payment form, For Dev contractor, DX-system payments variant.
