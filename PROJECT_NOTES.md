@@ -85,6 +85,17 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Thesis:** a mobile app that uses the Elo rating system to assess student skills by area. Worth a line on the About page: it's an early example of the CS → product path.
 - **GIS internship evidence:** two descriptions (the experience entry and the education entry) say BIR; only the LinkedIn company field says City Planning Development Office. Default to **"Bureau of Internal Revenue (BIR), Calbayog"** unless Gab says otherwise.
 
+## Decisions from Gab (Nov 26, 2026)
+
+1. **Headline:** "Product & Project Manager with a UX/UI and front-end background" (OK for now).
+2. **Contact:** email and LinkedIn only. **No phone number.**
+3. **Pinterest:** drop it.
+4. **Album covers:** mention the Fiverr experience only, with no gallery.
+5. **Oct 2024 – Apr 2025 gap:** leave it as is; add nothing.
+6. **"Gabriel Alonzo"** in the construction budget screens is a placeholder, not Gab. Mask it like any other sample name.
+7. **Hosting:** GitHub Pages first. Confirm before enabling any deployment.
+- **GIS internship:** use "Bureau of Internal Revenue (BIR), Calbayog" (two LinkedIn descriptions say BIR) unless Gab corrects it.
+
 ## Projects
 
 ### 1. PM Assistant App
