@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DX Design System · Case study · Gabriel Dominic Amores</title>
+  <meta name="description" content="How I started DX Form's design system: one Figma file, any client brand, and a website that replaces Dev Mode so developers don't need a Figma seat.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://fallengospel.github.io/GabD-PortfolioExperience/work/dx-design-system.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="DX Design System · Case study">
+  <meta property="og:description" content="One design file, any brand, and only one Figma seat.">
+  <meta property="og:image" content="https://fallengospel.github.io/GabD-PortfolioExperience/assets/img/work/dx-design-system-home.webp">
+  <meta name="theme-color" content="#E8EBEF">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Schibsted+Grotesk:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="filebar">
+    <div class="wrap">
+      <a class="filebar__file" href="../index.html" aria-label="Gab Amores, portfolio home">
+        <span class="filebar__mark" aria-hidden="true"></span>
+        Gab Amores <span>/ Portfolio</span>
+      </a>
+      <nav aria-label="Sections">
+        <ul class="filebar__tabs">
+          <li><a href="../index.html#story">Story</a></li>
+          <li><a href="../index.html#work" aria-current="page">Work</a></li>
+          <li><a href="../index.html#resume">Résumé</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--small filebar__cta" href="https://dx-design-system.vercel.app/" target="_blank" rel="noopener">Open the live site</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="case-hero">
+      <div class="wrap">
+        <p class="crumbs"><a href="../index.html#work">Work</a> / DX Design System</p>
+        <p class="frame-name"><code>CASE-01</code> My own initiative at DX Form PH, 2026</p>
+        <h1>One design file, any brand, and only one Figma seat</h1>
+        <p class="case-hero__lede">DX Form builds software for many clients, each with its own brand. When I came back as the company's first in-house UX/UI designer, there was no shared design system. I started one, and built it so the whole team could use it, not just the person holding the Figma license.</p>
+        <dl class="case-meta">
+          <div><dt>My role</dt><dd>Started it, design lead</dd></div>
+          <div><dt>Year</dt><dd>2026, version 3.2</dd></div>
+          <div><dt>Built with</dt><dd>Figma, React, Tailwind</dd></div>
+          <div><dt>AI partner</dt><dd>Claude, for audits and code</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="wrap">
+        <figure style="margin:0">
+          <img src="../assets/img/work/dx-design-system-home.webp" alt="DX Design System documentation home page: a headline reading 'Build DXFORM products in any brand', an install command, and sample stat cards." width="1600" height="1000">
+        </figure>
+      </div>
+    </section>
+
+    <section class="case-section" aria-labelledby="problem">
+      <div class="wrap case-two">
+        <div>
+          <h2 id="problem">The problem</h2>
+          <div class="prose">
+            <p>Every client product needed its own look, but the same kind of screens: tables, forms, dashboards, dialogs. Without a shared system, each project redraws them, each team makes slightly different choices, and accessibility depends on who happened to remember it.</p>
+            <p>There was one more constraint, and it shaped everything. We had <strong>one paid Figma seat</strong>, mine. Developers could only view the file. That meant no Dev Mode, no token names in Inspect and no code snippets, the exact things a developer needs to build from a design.</p>
+          </div>
+        </div>
+        <aside class="note" aria-label="A note from Gab">
+          <p>Being the only designer can feel lonely. A system meant my decisions could keep working when I wasn't in the room.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="case-section" aria-labelledby="decisions">
+      <div class="wrap">
+        <h2 id="decisions">Four decisions</h2>
+
+        <article class="decision">
+          <div>
+            <span class="decision__num">Decision 1</span>
+            <h3>Make the website the handoff, not Dev Mode</h3>
+            <div class="before-after">
+              <div><b>Without a seat</b>Developers guess token names and spacing from screenshots.</div>
+              <div><b>Now</b>Every component has a page with a live example, code, props and accessibility notes.</div>
+            </div>
+            <div class="prose">
+              <p>Instead of buying more seats, I moved everything a developer needs out of Figma and onto a public documentation site. Components install with one command and become code the project owns.</p>
+            </div>
+          </div>
+          <figure>
+            <img src="../assets/img/work/dx-design-system-button.webp" alt="The Button component page: a live preview with save, cancel and skip buttons, an install command and usage code." loading="lazy" width="1600" height="1000">
+            <figcaption>The Button page: preview, install command and code, the same layout for all 63 components.</figcaption>
+          </figure>
+        </article>
+
+        <article class="decision">
+          <div>
+            <span class="decision__num">Decision 2</span>
+            <h3>Put tokens in four layers, so a new brand is one setting</h3>
+            <div class="before-after">
+              <div><b>Before</b>A new client brand means recoloring every screen.</div>
+              <div><b>Now</b>A new brand is one new set of values. Every component follows.</div>
+            </div>
+            <div class="prose">
+              <p>Every color travels through four layers: the raw palette, the brand, its purpose (like "background, brand") and finally the component. Designers and components only ever use the purpose layer. That's why one switch can re-skin the whole site: 3 brands, 4 color modes including two high-contrast ones, and 2 densities.</p>
+            </div>
+          </div>
+          <figure>
+            <img src="../assets/img/work/dx-design-system-customize.webp" alt="The documentation site in dark mode with the Customize panel open, showing brand, density, high-contrast and dark-mode switches." loading="lazy" width="1600" height="1000">
+            <figcaption>One panel changes brand, density, contrast and theme across the whole site.</figcaption>
+          </figure>
+        </article>
+
+        <article class="decision">
+          <div>
+            <span class="decision__num">Decision 3</span>
+            <h3>Let the build keep us honest</h3>
+            <div class="before-after">
+              <div><b>The risk</b>The design file and the code slowly drift apart.</div>
+              <div><b>Now</b>Every build checks that each Figma component has a spec, code and a live example.</div>
+            </div>
+            <div class="prose">
+              <p>Figma, the tokens and the code share one version number. A parity check runs on every build, along with keyboard tests and an accessibility scan. If something is missing, the build fails and names what to fix. Anyone, not just me, can see whether the system is healthy.</p>
+            </div>
+          </div>
+          <figure>
+            <img src="../assets/img/work/dx-design-system-governance.webp" alt="The Governance page showing ownership tiers, steps from request to release, and health checks for parity, accessibility and contrast." loading="lazy" width="1600" height="1000">
+            <figcaption>Governance: who owns what, and how a request becomes a release.</figcaption>
+          </figure>
+        </article>
+
+        <article class="decision">
+          <div>
+            <span class="decision__num">Decision 4</span>
+            <h3>Write for AI assistants as well as people</h3>
+            <div class="before-after">
+              <div><b>The risk</b>AI tools write code with raw colors and made-up components.</div>
+              <div><b>Now</b>Assistants read the same docs and rules, so their code uses DX components and tokens.</div>
+            </div>
+            <div class="prose">
+              <p>Our developers already work with AI assistants, so the system speaks to them too: a plain-text index of every page, a Markdown version of each one, and a rules file a project can add with one command. I also use Claude to run the release audit before each version goes out. I still make the call on what ships.</p>
+            </div>
+          </div>
+          <figure>
+            <img src="../assets/img/work/dx-design-system-ai-patterns.webp" alt="The AI Patterns page with an example AI answer that shows its sources, a confidence level, and controls to regenerate or rate it." loading="lazy" width="1600" height="1000">
+            <figcaption>AI patterns: say it's AI, show where it came from, keep people in control.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="case-section" aria-labelledby="outcome">
+      <div class="wrap">
+        <h2 id="outcome">Where it is now</h2>
+        <ul class="outcome">
+          <li><b>63</b>components, each designed in Figma and coded in React</li>
+          <li><b>567</b>tokens in 9 collections</li>
+          <li><b>12</b>themes, every pair contrast-checked</li>
+          <li><b>69</b>icons, on a 24 px grid</li>
+        </ul>
+        <div class="prose">
+          <p>The system is at version 3.2. Its own checks report Figma and code in step for all 63 components, and every WCAG 2.2 and contrast check passing. It is already in use: in the construction budget redesign, the payments screen was rebuilt using only DX Design System parts.</p>
+          <p>What I can't show yet is how widely it's adopted. Usage tracking in Figma needs a higher plan than we have. Measuring that properly is the next step.</p>
+        </div>
+        <p class="fineprint">Numbers come from the system's own documentation and build checks, version 3.2.0. They describe the system, not business results.</p>
+      </div>
+    </section>
+
+    <section class="case-section" aria-labelledby="learned">
+      <div class="wrap case-two">
+        <div>
+          <h2 id="learned">What I learned</h2>
+          <div class="prose">
+            <p>A design system isn't a library. It's an agreement between people who will never sit in the same meeting. The more of that agreement I wrote down, in the docs, the checks and the version number, the less it depended on me remembering it.</p>
+            <p>Next, I want to measure who uses it and where it gets in their way, then fix that first.</p>
+          </div>
+        </div>
+        <figure style="margin:0">
+          <img src="../assets/img/work/dx-design-system-tokens.webp" alt="The token explorer listing tiers of tokens, from primitive palette values to component tokens." loading="lazy" width="1600" height="1000" style="border:1px solid var(--line)">
+        </figure>
+      </div>
+    </section>
+
+    <div class="wrap next-case">
+      <a class="btn btn--primary" href="https://dx-design-system.vercel.app/" target="_blank" rel="noopener">Open the live design system</a>
+      <a class="btn" href="../index.html#work">Back to all work</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span data-year>2026</span> Gabriel Dominic Amores. Designed and built by me, with AI as a partner.</p>
+      <p><a href="../resume.html">Résumé</a> · <a href="mailto:amores_dominic@yahoo.com">Email</a></p>
+    </div>
+  </footer>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

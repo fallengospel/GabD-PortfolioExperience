@@ -96,6 +96,15 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 7. **Hosting:** GitHub Pages first. Confirm before enabling any deployment.
 - **GIS internship:** use "Bureau of Internal Revenue (BIR), Calbayog" (two LinkedIn descriptions say BIR) unless Gab corrects it.
 
+## Portfolio build (Nov 26, 2026)
+
+- **Gab's brief:** follow the handoff; tell a brief, human story; unconventional design that mixes his experience but is easy to navigate; mature storytelling without bragging; a simple résumé from the LinkedIn timeline; projects will keep being updated.
+- **Answers:** design combines all three proposed ideas (handoff-file structure, era-shifting chapter styles code → board → canvas → roadmap, notebook-style margin notes); only the DX Design System is a full case study for now; client work uses masked screenshots; first person, calm voice.
+- **Built:** `index.html`, `work/dx-design-system.html`, `resume.html` + PDF, `assets/js/projects.js` (all project content), 28 masked WebP screenshots in `assets/img/work/`. See `README.md` for how to update.
+- **Margin notes and some story lines are drafts written in Gab's voice.** Gab should confirm or rewrite them.
+- **Not linked on purpose:** GitHub/GitLab profiles (handoff item 6: link a code profile only if it has something to show), phone number, Pinterest.
+- **Masking script** (outside the repo, session scratchpad): rebuilds any masked image if a screenshot needs to change.
+
 ## Projects
 
 ### 1. PM Assistant App

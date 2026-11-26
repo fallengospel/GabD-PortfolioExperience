@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fallengospel.github.io/GabD-PortfolioExperience/sitemap.xml
