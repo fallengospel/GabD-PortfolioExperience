@@ -92,13 +92,34 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Context:** Personal AI-assisted build (see Context above). No Figma.
 
 ### 6. Lucid
-- **Live URL:** https://lucid-kaiba-corp.vercel.app/ (newer link Gab shared on Nov 26, 2026). Older link: https://lucid-omega-red.vercel.app/. Both redirect to `/login?next=%2F`; checked the new one on Nov 26 and it shows the same sign-in wall.
+- **Live URL:** https://lucid-kaiba-corp.vercel.app/ (newer link Gab shared on Nov 26, 2026). Older link: https://lucid-omega-red.vercel.app/. Both redirect to `/login?next=%2F`.
 - **Figma:** none (built directly with AI)
-- **Status of review:** Only the sign-in and sign-up pages are viewable (screenshotted Nov 21, 2026). Every other route redirects to login.
-- **What it is (from the live site):** "Lucid: UX/UI Assessment." Sign-in copy: "Continue your UX/UI assessments." Sign-up: "Start structured UX/UI assessments in minutes." (name, email, password). Clean, minimal monochrome UI with a purple accent.
-- **Next step:** Gab to share demo login details, or approve Claude creating a test account through sign-up.
-- **Portfolio note:** recruiters will hit the login wall too. Consider a demo account, a "Try demo" button, or a public landing page.
-- **Context:** Personal AI-assisted build (see Context above). No Figma.
+- **Access:** Gab shared a demo login on Nov 26, 2026. It is not stored here; ask Gab for it again if needed. The demo account is empty (0 projects, 0 assessments). Reviewed read-only: nothing was created or changed.
+- **What it is (from the live app):** "Lucid: UX/UI Assessment." A tool for running structured UX/UI audits of interfaces from screenshots.
+- **Pages:**
+  - Dashboard: issue counts by severity, recent assessments.
+  - Projects: groups assessments by product.
+  - Assessments.
+  - **New assessment**, a 4-step wizard: Project details (name, app type: web / mobile / responsive web / internal enterprise; target platform; primary users; description) → Define task → Upload screens → Analysis.
+  - Reports (web now; PDF export, history, run comparison, comments and assignment on the roadmap).
+  - **Criteria database.**
+  - Settings.
+- **Criteria database (the core idea):** "The assessment framework lives here — not hard-coded in prompts — so criteria can evolve, new frameworks can be added, and every finding stays traceable to a standard."
+  - 4 levels: Visual, AI-Assisted, Technical Test, Human Validation.
+  - Frameworks:
+    - Nielsen's 10 heuristics.
+    - WCAG 2.2 (7 criteria, e.g. 1.4.3 contrast, 2.5.8 target size, 2.4.7 focus visible).
+    - ISO 9241-11 (effectiveness, efficiency, satisfaction).
+    - ISO 9241-210 (human-centred design).
+    - Apple HIG (touch targets).
+    - Internal rules (consistent components, required fields, validation errors, unambiguous navigation, feedback states, dominant primary action).
+  - Each criterion is tagged by how it can be checked: AI-assisted, Automatic, Manual, or Implementation required.
+- **Honest-AI design choices:**
+  - Settings state the WCAG 2.2 AA baseline is "analysis-level only — never a compliance claim from screenshots."
+  - Severity model: Critical (task blocked), High (significant confusion or risk), Medium (efficiency or clarity impact), Low (minor refinement).
+- **Portfolio note:** Lucid looks like a tool version of Gab's own audit method used in the DX redesigns (NVQS, construction BMS: severity + category findings, WCAG 2.2 AA). Strong link between the personal AI builds and the professional work.
+- **To show more:** the demo account has no sample data, so only empty states are visible. A seeded sample assessment would make screenshots far stronger. Recruiters still need the login, or a public demo.
+- **Screenshots saved:** dashboard, projects, assessments, new assessment step 1, reports, criteria, settings, mobile dashboard.
 
 ### 7. DX Design System (DX Form PH work)
 - **Live URL:** https://dx-design-system.vercel.app/
