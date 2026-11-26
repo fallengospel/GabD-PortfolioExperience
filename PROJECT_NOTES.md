@@ -92,7 +92,7 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **Context:** Personal AI-assisted build (see Context above). No Figma.
 
 ### 6. Lucid
-- **Live URL:** https://lucid-omega-red.vercel.app/ (redirects to `/login?next=%2F`)
+- **Live URL:** https://lucid-kaiba-corp.vercel.app/ (newer link Gab shared on Nov 26, 2026). Older link: https://lucid-omega-red.vercel.app/. Both redirect to `/login?next=%2F`; checked the new one on Nov 26 and it shows the same sign-in wall.
 - **Figma:** none (built directly with AI)
 - **Status of review:** Only the sign-in and sign-up pages are viewable (screenshotted Nov 21, 2026). Every other route redirects to login.
 - **What it is (from the live site):** "Lucid: UX/UI Assessment." Sign-in copy: "Continue your UX/UI assessments." Sign-up: "Start structured UX/UI assessments in minutes." (name, email, password). Clean, minimal monochrome UI with a purple accent.
