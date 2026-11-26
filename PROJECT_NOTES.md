@@ -27,6 +27,30 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 - **PayBridge is a DX Form product,** not a client's.
 - **Privacy rule for every DX project:** hide branding wherever privacy matters (client names and logos, real companies, hospitals, people, usernames, IDs). The decisions and thinking are the point; the brand is not.
 
+## Experience (from Gab's LinkedIn screenshots, Nov 26, 2026)
+
+More entries are coming; this list is incomplete.
+
+### Project / Product Manager (Mid Level), DX Form PH
+- Full-time · May 2026 – Present · Cebu, Central Visayas, Philippines · On-site
+- "Team and project oversight focused on leading and coordinating cross-functional teams to ensure timely delivery aligned with business goals and quality standards. Product development driven by defining features and translating user needs and business requirements into scalable, user-focused solutions. Client relations managed as the primary point of contact, building strong partnerships, maintaining clear communication, and aligning expectations throughout the project lifecycle. Design leadership centered on crafting intuitive, cohesive, and user-centered UI/UX experiences across the product portfolio."
+- Skills: Software Project Management, Product Management, UX Research, User Experience (UX), User Experience Design (UED)
+
+### UX/UI Designer, Talleco
+- Full-time · Apr 2025 – Apr 2026 (1 yr 1 mo) · Remote
+- "I design intuitive, user-centered digital experiences by collaborating closely with product managers and engineers to translate complex requirements into simple, effective solutions. My work spans the full design process—from research and wireframing to high-fidelity UI and developer handoff—ensuring consistency through design systems and best practices. I also lead user research and usability evaluations, present design decisions to stakeholders, and continuously refine experiences based on feedback and emerging UI trends."
+- Skills: UX Research, Communication, Design Collaboration, Visual Design, Critical Thinking
+
+### DX Form PH (grouped entry: Full-time · 3 yrs)
+- **Junior Project Manager:** May 2023 – Oct 2024 (1 yr 6 mos) · Philippines · On-site
+  - "As a Project Manager, I am tasked with conducting weekly standups with the team, overseeing various software development projects ranging from web to mobile applications. My responsibilities include testing, collaborating with team leads for task designation, and managing other essential duties typical of a project manager role. Additionally, I am actively involved in overseeing our OJT program, organizing boot camps, and researching training opportunities to enhance the skill set of our developers."
+  - Skills: Project Management, Software Project Management (+2 not shown)
+- Earlier DX Form PH role(s) under this group are not shown yet. Likely the 2021–2023 Front-End Developer role; confirm with the next screenshots.
+
+### Resolved from the handoff's open questions
+- The 2023–2024 Project Manager role was at **DX Form PH** (title: Junior Project Manager, May 2023 – Oct 2024).
+- Gab returned to DX Form PH in May 2026 after Talleco. The gap is Oct 2024 – Apr 2025; check whether there is a role there.
+
 ## Projects
 
 ### 1. PM Assistant App
