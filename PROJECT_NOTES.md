@@ -75,6 +75,16 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 | Jan 2021 – Dec 2021 | Graphic Designer (album covers) | Fiverr | Freelance · Remote |
 | Apr 2018 – Jun 2018 | GIS Mapper (Intern) | City Planning Development Office *or* BIR (to confirm) | Internship · On-site, Calbayog |
 
+## Education (from Gab's LinkedIn screenshots, Nov 26, 2026)
+
+- **Northwest Samar State University (NwSSU), Calbayog City**: Bachelor of Science, Computer Science · 2014 – 2019
+- Activities and societies: NwSSU Computer Science Students' Society (CS³)
+- "Computer Science graduate with four years of academic experience in programming languages, including Java, C#, VB, and Python. Gained foundational knowledge in web programming and applied these skills during a thesis project that involved developing a mobile application. This application utilized the Elo rating system to assess student skills and abilities in specific areas, showcasing my ability to combine technical knowledge with practical application."
+- "As an intern, I worked with the government under the BIR office, utilizing the manifold system as GIS mappers. Our primary task was mapping barangays, and accurately labeling establishments, commercial areas, and both land and sea territories."
+- Skills: Web Development, Software Installation, Troubleshooting, HTML, Python, C#, Java, Visual Basic, Ruby
+- **Thesis:** a mobile app that uses the Elo rating system to assess student skills by area. Worth a line on the About page: it's an early example of the CS → product path.
+- **GIS internship evidence:** two descriptions (the experience entry and the education entry) say BIR; only the LinkedIn company field says City Planning Development Office. Default to **"Bureau of Internal Revenue (BIR), Calbayog"** unless Gab says otherwise.
+
 ## Projects
 
 ### 1. PM Assistant App
