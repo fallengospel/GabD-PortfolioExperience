@@ -29,7 +29,6 @@ Running list of the projects, domains and Figma links Gab shares. The site is bu
 
 ## Experience (from Gab's LinkedIn screenshots, Nov 26, 2026)
 
-More entries are coming; this list is incomplete.
 
 ### Project / Product Manager (Mid Level), DX Form PH
 - Full-time · May 2026 – Present · Cebu, Central Visayas, Philippines · On-site
@@ -44,12 +43,37 @@ More entries are coming; this list is incomplete.
 ### DX Form PH (grouped entry: Full-time · 3 yrs)
 - **Junior Project Manager:** May 2023 – Oct 2024 (1 yr 6 mos) · Philippines · On-site
   - "As a Project Manager, I am tasked with conducting weekly standups with the team, overseeing various software development projects ranging from web to mobile applications. My responsibilities include testing, collaborating with team leads for task designation, and managing other essential duties typical of a project manager role. Additionally, I am actively involved in overseeing our OJT program, organizing boot camps, and researching training opportunities to enhance the skill set of our developers."
-  - Skills: Project Management, Software Project Management (+2 not shown)
-- Earlier DX Form PH role(s) under this group are not shown yet. Likely the 2021–2023 Front-End Developer role; confirm with the next screenshots.
+  - Skills: Project Management, Software Project Management, Project Planning, Employee Training
+- **Junior Front-End Developer:** Nov 2021 – May 2023 (1 yr 7 mos) · Calbayog, Eastern Visayas, Philippines · Hybrid
+  - "As a front-end developer, I have extensive experience collaborating with teams to deliver web and mobile applications, employing an agile approach. I am proficient in utilizing tools and software applications such as VSCode, GitHub, GitLab, and Hasura GraphQL. My tech stack, prior to transitioning into project management, included foundational skills in JavaScript, HTML, CSS, React, and React Native. Additionally, I have successfully managed projects using Vue and MongoDB."
+  - Skills: Front-End Development, Web Testing, Mobile Testing, Back-End Web Development
+
+### Graphic Designer, Fiverr
+- Freelance · Jan 2021 – Dec 2021 (1 yr) · Philippines · Remote
+- "When I'm not immersed in project management or Software Development, I find creative satisfaction in crafting album covers during my free time. Leveraging Canva and Gimp as my primary editors, I've produced numerous album covers spanning various music genres. Feel free to explore some of my work, conveniently showcased on my personal album cover check it out for a glimpse into my creative endeavors."
+- Skills: Logo Design
+- Overlaps the front-end role only in Nov–Dec 2021. Label it as freelance / part-time on the site.
+
+### GIS Mapper (Internship)
+- LinkedIn company field: City Planning Development Office · Apr 2018 – Jun 2018 (3 mos) · Calbayog, Eastern Visayas, Philippines · On-site
+- "As an intern at the Bureau of Internal Revenue (BIR), I utilized the Manifold System for GIS mapping. Our main task involved creating barangay maps, accurately labeling various establishments, and commercial areas, and delineating land and water territories. This systematic approach enhanced the quality and accessibility of geospatial data for governmental use."
+- Skills: Geographic Information Systems (GIS), Manifold GIS (+2 not shown)
+- **Still conflicting:** the company field says City Planning Development Office, but the description says BIR. Ask Gab which one is correct.
 
 ### Resolved from the handoff's open questions
 - The 2023–2024 Project Manager role was at **DX Form PH** (title: Junior Project Manager, May 2023 – Oct 2024).
+- The 2021–2023 Front-End Developer role was at **DX Form PH** (title: Junior Front-End Developer, Nov 2021 – May 2023).
 - Gab returned to DX Form PH in May 2026 after Talleco. The gap is Oct 2024 – Apr 2025; check whether there is a role there.
+
+### Full timeline (newest first)
+| Dates | Role | Company | Type |
+|---|---|---|---|
+| May 2026 – Present | Project / Product Manager (Mid Level) | DX Form PH | Full-time · On-site, Cebu |
+| Apr 2025 – Apr 2026 | UX/UI Designer | Talleco | Full-time · Remote |
+| May 2023 – Oct 2024 | Junior Project Manager | DX Form PH | Full-time · On-site |
+| Nov 2021 – May 2023 | Junior Front-End Developer | DX Form PH | Full-time · Hybrid, Calbayog |
+| Jan 2021 – Dec 2021 | Graphic Designer (album covers) | Fiverr | Freelance · Remote |
+| Apr 2018 – Jun 2018 | GIS Mapper (Intern) | City Planning Development Office *or* BIR (to confirm) | Internship · On-site, Calbayog |
 
 ## Projects
 
